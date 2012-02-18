@@ -28,6 +28,7 @@ namespace fCraftCustom.NKMods {
             //Server.OnGetVersionString += Helpers.Misc.OnGetVersionString;
             Heartbeat.Sending += Helpers.Misc.OnHeartbeat;
             Scheduler.NewTask(Helpers.Misc.DoHeartbeat).RunForever(TimeSpan.FromMilliseconds(1000));
+            Scheduler.NewTask(Helpers.AutoPromo.DoAutoPromo).RunForever(TimeSpan.FromMilliseconds(10000));
             PlayerInfo.BanChanged += Helpers.Misc.OnBanChanged;
             PlayerDB.SaveInterval = TimeSpan.FromSeconds(300);
             Player.CheckingPlayerLogin += Helpers.Misc.OnCheckingPlayerLogin;
@@ -49,7 +50,6 @@ namespace fCraftCustom.NKMods {
             CommandManager.RegisterCustomCommand(Commands.Cleanup.cdCleanupAll);
             CommandManager.RegisterCustomCommand(Commands.HistoryCmd.cdHistory);
             CommandManager.RegisterCustomCommand(Commands.HistoryCmd.cdRevert);
-            CommandManager.RegisterCustomCommand(Commands.Promotion.cdEngage);
             CommandManager.RegisterCustomCommand(Commands.UnbanAllAll.cdUnbanAllAll);
             mainSalt = Server.GetRandomString(32);
             womSalt = Server.GetRandomString(32);

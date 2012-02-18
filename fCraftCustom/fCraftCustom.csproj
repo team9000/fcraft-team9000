@@ -63,7 +63,7 @@
   <ItemGroup>
     <Compile Include="NKMods\Commands\Cleanup.cs" />
     <Compile Include="NKMods\Commands\HistoryCmd.cs" />
-    <Compile Include="NKMods\Commands\Promotion.cs" />
+    <Compile Include="NKMods\Helpers\AutoPromo.cs" />
     <Compile Include="NKMods\Commands\UnbanAllAll.cs" />
     <Compile Include="NKMods\Helpers\History.cs" />
     <Compile Include="NKMods\Helpers\Misc.cs" />
@@ -74,7 +74,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\0.613\fCraft\fCraft.csproj">
+    <ProjectReference Include="..\fCraft\fCraft.csproj">
       <Project>{7FBE7809-6F77-415C-ABEB-A3F627E817B0}</Project>
       <Name>fCraft</Name>
     </ProjectReference>

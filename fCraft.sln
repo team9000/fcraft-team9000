@@ -24,9 +24,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateBuilder", "UpdaterBui
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fCraftGUI", "fCraftGUI\fCraftGUI.csproj", "{AFAEE6CC-8B4F-40CD-9623-7FFDC8E52222}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fCraftCustom", "..\custom\fCraftCustom\fCraftCustom.csproj", "{E3129EBC-BACE-456F-A401-9E6114AC82A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fCraftCustom", "fCraftCustom\fCraftCustom.csproj", "{E3129EBC-BACE-456F-A401-9E6114AC82A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fCraftImg", "..\custom\fCraftImg\fCraftImg.csproj", "{0084B942-D6AC-40E9-91F8-514A9469814D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fCraftImg", "fCraftImg\fCraftImg.csproj", "{0084B942-D6AC-40E9-91F8-514A9469814D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

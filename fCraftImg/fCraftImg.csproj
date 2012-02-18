@@ -66,11 +66,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\0.613\fCraftGUI\fCraftGUI.csproj">
+    <ProjectReference Include="..\fCraftGUI\fCraftGUI.csproj">
       <Project>{AFAEE6CC-8B4F-40CD-9623-7FFDC8E52222}</Project>
       <Name>fCraftGUI</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\0.613\fCraft\fCraft.csproj">
+    <ProjectReference Include="..\fCraft\fCraft.csproj">
       <Project>{7FBE7809-6F77-415C-ABEB-A3F627E817B0}</Project>
       <Name>fCraft</Name>
     </ProjectReference>
