@@ -1,0 +1,6 @@
+.svn/
+_Upgrade*/
+Backup/
+bin/
+obj/
+UpgradeLog*
